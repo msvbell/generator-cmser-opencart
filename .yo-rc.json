@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Sergey Ivanov",
+      "authorEmail": "msvbell@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
