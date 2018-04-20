@@ -35,4 +35,4 @@ MIT © [Sergey Ivanov]()
 [daviddm-image]: https://david-dm.org/msvbell/generator-cmser-opencart.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/msvbell/generator-cmser-opencart
 [coveralls-image]: https://coveralls.io/repos/msvbell/generator-cmser-opencart/badge.svg
-[coveralls-url]: https://coveralls.io/r/msvbell/generator-cmser-opencart
+[coveralls-url]: https://coveralls.io/github/msvbell/generator-cmser-opencart?branch=master
