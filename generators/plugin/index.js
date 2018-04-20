@@ -97,11 +97,7 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('admin/controller.php'),
       this.destinationPath(
-        'admin/controller/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.php'
+        'admin/controller/extension/' + pluginType + '/' + pluginName + '.php'
       ),
       {
         className: className,
@@ -115,15 +111,10 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('admin/model.php'),
       this.destinationPath(
-        'admin/model/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.php'
+        'admin/model/extension/' + pluginType + '/' + pluginName + '.php'
       ),
       {
-        className:
-        className,
+        className: className,
         pluginType: pluginType,
         pluginName: pluginName
       }
@@ -133,11 +124,7 @@ module.exports = class extends Generator {
     this.fs.copy(
       this.templatePath('admin/language/en-gb/language.php'),
       this.destinationPath(
-        'admin/language/en-gb/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.php'
+        'admin/language/en-gb/extension/' + pluginType + '/' + pluginName + '.php'
       )
     );
 
@@ -145,11 +132,7 @@ module.exports = class extends Generator {
     this.fs.copy(
       this.templatePath('admin/view.twig'),
       this.destinationPath(
-        'admin/view/template/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.twig'
+        'admin/view/template/extension/' + pluginType + '/' + pluginName + '.twig'
       )
     );
 
@@ -161,15 +144,10 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('catalog/controller.php'),
       this.destinationPath(
-        'catalog/controller/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.php'
+        'catalog/controller/extension/' + pluginType + '/' + pluginName + '.php'
       ),
       {
-        className:
-        className,
+        className: className,
         pluginType: pluginType,
         pluginName: pluginName,
         pluginNamespace: pluginNamespace
@@ -180,15 +158,10 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath('catalog/model.php'),
       this.destinationPath(
-        'catalog/model/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.php'
+        'catalog/model/extension/' + pluginType + '/' + pluginName + '.php'
       ),
       {
-        className:
-        className,
+        className: className,
         pluginType: pluginType,
         pluginName: pluginName
       }
@@ -198,11 +171,7 @@ module.exports = class extends Generator {
     this.fs.copy(
       this.templatePath('catalog/language/en-gb/language.php'),
       this.destinationPath(
-        'catalog/language/en-gb/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.php'
+        'catalog/language/en-gb/extension/' + pluginType + '/' + pluginName + '.php'
       )
     );
 
@@ -210,11 +179,7 @@ module.exports = class extends Generator {
     this.fs.copy(
       this.templatePath('catalog/view.twig'),
       this.destinationPath(
-        'catalog/view/theme/default/template/extension/' +
-        pluginType +
-        '/' +
-        pluginName +
-        '.twig'
+        'catalog/view/theme/default/template/extension/' + pluginType + '/' + pluginName + '.twig'
       )
     );
   }
